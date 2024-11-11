@@ -7,9 +7,9 @@ export declare class Bitacora extends Document {
 export declare const BitacoraSchema: import("mongoose").Schema<Bitacora, import("mongoose").Model<Bitacora, any, any, any, Document<unknown, any, Bitacora> & Bitacora & Required<{
     _id: unknown;
 }> & {
-    __v?: number;
+    __v: number;
 }, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, Bitacora, Document<unknown, {}, import("mongoose").FlatRecord<Bitacora>> & import("mongoose").FlatRecord<Bitacora> & Required<{
     _id: unknown;
 }> & {
-    __v?: number;
+    __v: number;
 }>;

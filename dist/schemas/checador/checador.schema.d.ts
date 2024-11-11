@@ -7,9 +7,9 @@ export declare class Checador extends Document {
 export declare const ChecadorSchema: import("mongoose").Schema<Checador, import("mongoose").Model<Checador, any, any, any, Document<unknown, any, Checador> & Checador & Required<{
     _id: unknown;
 }> & {
-    __v?: number;
+    __v: number;
 }, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, Checador, Document<unknown, {}, import("mongoose").FlatRecord<Checador>> & import("mongoose").FlatRecord<Checador> & Required<{
     _id: unknown;
 }> & {
-    __v?: number;
+    __v: number;
 }>;

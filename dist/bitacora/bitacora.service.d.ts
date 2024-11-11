@@ -15,12 +15,12 @@ export declare class BitacoraService {
     findAll(): Promise<(import("mongoose").Document<unknown, {}, Bitacora> & Bitacora & Required<{
         _id: unknown;
     }> & {
-        __v?: number;
+        __v: number;
     })[]>;
     findOne(id: number): Promise<(import("mongoose").Document<unknown, {}, Bitacora> & Bitacora & Required<{
         _id: unknown;
     }> & {
-        __v?: number;
+        __v: number;
     })[]>;
     update(id: number, updateBitacoraDto: UpdateBitacoraDto): string;
     remove(id: number): string;

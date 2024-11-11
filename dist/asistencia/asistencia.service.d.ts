@@ -9,22 +9,22 @@ export declare class AsistenciaService {
     crearAsistencia(id_pertenece: number, id_encargado: number, detallesAsistenciaDto: AsistenciaDetallesDto): Promise<import("mongoose").Document<unknown, {}, Asistencia> & Asistencia & Required<{
         _id: unknown;
     }> & {
-        __v?: number;
+        __v: number;
     }>;
     traerTodasEncargado(id_encargado: number): Promise<(import("mongoose").Document<unknown, {}, Asistencia> & Asistencia & Required<{
         _id: unknown;
     }> & {
-        __v?: number;
+        __v: number;
     })[]>;
     traerTodasAlumno(id_pertenece: number): Promise<(import("mongoose").Document<unknown, {}, Asistencia> & Asistencia & Required<{
         _id: unknown;
     }> & {
-        __v?: number;
+        __v: number;
     })[]>;
     actualizarPorEncargado(id_encargado: number, fecha: Date, horas: number): Promise<import("mongoose").Document<unknown, {}, Asistencia> & Asistencia & Required<{
         _id: unknown;
     }> & {
-        __v?: number;
+        __v: number;
     }>;
     eliminarPorEncargado(id_encargado: number): Promise<{
         message: string;

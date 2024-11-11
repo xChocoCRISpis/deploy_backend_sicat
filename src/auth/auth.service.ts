@@ -13,7 +13,7 @@ import { Bitacora } from "src/schemas/bitacora/bitacora.schema";
 import { Model } from "mongoose";
 import { InjectModel } from "@nestjs/mongoose";
 import { LoginDto } from "./dto/login.dto";
-import * as bcrypt from "bcrypt";
+import * as bcrypt from "bcryptjs";
 import * as jwt from "jsonwebtoken";
 import * as QRCode from "qrcode";
 import * as crypto from "crypto";

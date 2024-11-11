@@ -11,12 +11,12 @@ export declare class BitacoraController {
     findAll(): Promise<(import("mongoose").Document<unknown, {}, import("../schemas/bitacora/bitacora.schema").Bitacora> & import("../schemas/bitacora/bitacora.schema").Bitacora & Required<{
         _id: unknown;
     }> & {
-        __v?: number;
+        __v: number;
     })[]>;
     findOne(id: string): Promise<(import("mongoose").Document<unknown, {}, import("../schemas/bitacora/bitacora.schema").Bitacora> & import("../schemas/bitacora/bitacora.schema").Bitacora & Required<{
         _id: unknown;
     }> & {
-        __v?: number;
+        __v: number;
     })[]>;
     update(id: string, updateBitacoraDto: UpdateBitacoraDto): string;
     remove(id: string): string;

@@ -7,9 +7,9 @@ export declare class Asistencia extends Document {
 export declare const AsistenciaSchema: import("mongoose").Schema<Asistencia, import("mongoose").Model<Asistencia, any, any, any, Document<unknown, any, Asistencia> & Asistencia & Required<{
     _id: unknown;
 }> & {
-    __v?: number;
+    __v: number;
 }, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, Asistencia, Document<unknown, {}, import("mongoose").FlatRecord<Asistencia>> & import("mongoose").FlatRecord<Asistencia> & Required<{
     _id: unknown;
 }> & {
-    __v?: number;
+    __v: number;
 }>;
